@@ -2,7 +2,7 @@
 dependencies:
   - role: telusdigital.apt-repository
     repository_url: "deb http://packages.ntp.org/debian stable main"
-    repository_key: |
+    repository_key_public_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1.4.9 (GNU/Linux)
       

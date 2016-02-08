@@ -1,6 +1,27 @@
 ---
-dependencies: []
-
+dependencies:
+  - role: telusdigital.apt-repository
+    repository_url: "deb http://packages.ntp.org/debian stable main"
+    repository_key: |
+      -----BEGIN PGP PUBLIC KEY BLOCK-----
+      Version: GnuPG v1.4.9 (GNU/Linux)
+      
+      mQGiBEySvdwRBADn8YjDWz8CP7GEXTyISLYBMoZTyBXPOEmEh2JfuZ59J0S9krZP
+      7vualtZaIijSUChwtANsmm2BPzb+leRNdYuYZY+U+ZQ0/NESUbjrB9hqxqEsXKWr
+      Zrah1WkiohbgXcqntJM2DAouiYMd+c5jACzfMN/Se88zXc5lqHQrjoD9LwCgzs7B
+      A6zfmO8+5Af9dXcpS8hgRlUD/Rp2P+i1ekcBky3cnFA98+5lIwR74IcjTawr+wDI
+      4Un9SRNS54qQO+QiYD8DZLdgYxk9K6iTV+WmRW7dMIwNvYBA7KwHHziiSuL1nhBq
+      Os0Yo7X3ulQM20DMGYYN3JnDi8fHuzDIQe7KxVS4E4JHnnGIeabxirkrMYTxUnp+
+      RxZEA/4pCf+Xxg7LXC8Bdc+nvSIIsc4MQfQtwu+i3yB+EBNwOCA255IMtGHmGyOV
+      jjIfkeIrNy2+VJWPxHwq2sjKFPPc44Y1742G8dU2VJXgbPaLwHjgqMUvjmTvcoaA
+      lzUmISohpJsBWB3LsGLBMKIiaoVcJQGUqm2EyaQqblIj6nXWObQ9TlRQIFB1Ymxp
+      YyBTZXJ2aWNlcyBQcm9qZWN0IEF1dG9idWlsZGVyIDxhdXRvYnVpbGRlckBudHAu
+      b3JnPohiBBMRAgAiBQJMkr3cAhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAK
+      CRC7vuIMfCOGD9VmAJ94oe8EUZLSO2OgJ/EniQ+/NowV8gCgoy9rlmkEnDkDKXz5
+      SconrmVD13CIRgQQEQIABgUCTJLDDwAKCRASWFNMN+x6aVoyAJ4r7tgXCmm5KeLN
+      Wxt5jZb653gebgCeMEJzR8rpIGS1l/YTnE/orkDev7M=
+      =XiB+
+      -----END PGP PUBLIC KEY BLOCK-----
 galaxy_info:
   author: "Ben Visser"
   company: "TELUS digital"
